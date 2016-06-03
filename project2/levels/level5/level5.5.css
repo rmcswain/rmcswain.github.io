@@ -1,0 +1,171 @@
+@keyframes bounceInUp {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+html {background-color:#2196F3;}
+
+#one{
+    width:500px;
+    border: 8px solid;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    margin-top:1px;
+    font-family:Helvetica;
+    animation-name:bounceInUp;
+    animation-duration:.2s;
+}
+
+#two{
+  width:500px;
+    border: 8px solid;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    margin-top:1px;
+    font-family:Helvetica;
+    animation-name:bounceInUp;
+    animation-duration:.3s;
+}
+
+#three{
+  width:500px;
+    border: 8px solid;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    margin-top:1px;
+    font-family:Helvetica;
+    animation-name:bounceInUp;
+    animation-duration:.4s;
+}
+
+#four{
+  width:500px;
+    border: 8px solid;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    margin-top:1px;
+    font-family:Helvetica;
+    animation-name:bounceInUp;
+    animation-duration:.5s;
+}
+
+#five{
+  width:500px;
+    border: 8px solid;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    margin-top:1px;
+    font-family:Helvetica;
+    animation-name:bounceInUp;
+    animation-duration:.6s;
+}
+
+#six{
+    width:500px;
+    border: 8px solid;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    margin-top:1px;
+    font-family:Helvetica;
+    animation-name:bounceInUp;
+    animation-duration:.7s;
+}
+
+.navigation{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  width: 135px;
+  height: 50px;
+}
+
+.navcircle a{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #37474F;
+  text-align: center;
+  float: left;
+  margin: 2px;
+}
+
+.navigation a:link{
+  color: white;
+}
+
+.navigation a:visited{
+  color: white;
+}
+
+.navigation a:hover{
+  color: #76FF03;
+}
+
+.home a{
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 15pt;
+  font-weight: 600;
+  font-color: white;
+  line-height: 40px;
+}
+
+.back a{
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 25pt;
+  font-weight: 600;
+  font-color: white;
+  line-height: 35px;
+}
+
+.next a{
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 25pt;
+  font-weight: 600;
+  font-color: white;
+  line-height:35px;
+}

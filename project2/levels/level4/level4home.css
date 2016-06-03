@@ -1,0 +1,150 @@
+html{
+	position: relative;
+	background: #263238;
+}
+
+.circle{
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	font-family: Helvetica;
+	font-size: 280px;
+	font-weight: 600;
+	letter-spacing: -25px;
+	color: #263238;
+	text-align: center;
+	line-height: 300px;
+	background-color: #76FF03;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.instructions{
+	width: 500px;
+	margin: auto;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: white;
+}
+
+.poem{
+	width: 500px;
+	margin: auto;
+	margin-top: 25px;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: #76FF03;
+	text-align: center;
+	top: 50px;
+	border-top: 2px dashed;
+	border-bottom: 2px dashed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a:link{
+	color:#263238;
+}
+
+a:visited{
+	color:#263238;
+}
+
+a:hover{
+	color:white;
+}
+
+.levelblock{
+	width: 300px;
+	height: 80px;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.levelcircle a{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background: black;
+	float:left;
+	margin: 3px;
+}
+
+.one a{
+	background: #37474F;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-weight: 600;
+	font-color: #263238;
+	text-align: center;
+	line-height:50px;
+}
+
+.two a{
+	background: #455A64;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 15pt;
+	font-weight: 600;
+	font-color: #263238;
+	text-align: center;
+	line-height:50px;
+
+}
+
+.three a{
+	background: #546E7A;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 20pt;
+	font-weight: 600;
+	font-color: #263238;
+	text-align: center;
+	line-height:50px;
+}
+
+.four a{
+	background: #607D8B;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 25pt;
+	font-weight: 600;
+	font-color: #263238;
+	text-align: center;
+	line-height:50px;
+}
+
+.five a{
+	background: #78909C;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 30pt;
+	font-weight: 600;
+	font-color: #263238;
+	text-align: center;
+	line-height:50px;
+}
+
+.homebutton a{
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+.homebutton{
+	text-align: center;
+}
+
+.homebutton a:link{
+	color: #546E7A;
+}
+
+.homebutton a:visited{
+	color: #546E7A;
+}
+
+.homebutton a:hover{
+	color: white;
+}

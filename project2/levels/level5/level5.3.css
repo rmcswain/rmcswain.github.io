@@ -1,0 +1,363 @@
+body {margin:0px;}
+
+@keyframes one {
+	0% {background-color:#FAFAFA}
+	50% {background-color:#000000}
+	100% {background-color:#FAFAFA}
+}
+
+@keyframes two {
+	0% {background-color:#F5F5F5}
+	50% {background-color:#212121}
+	100% {background-color:#F5F5F5}
+}
+
+@keyframes three {
+	0% {background-color:#EEEEEE}
+	50% {background-color:#424242}
+	100% {background-color:#EEEEEE}
+}
+
+@keyframes four {
+	0% {background-color:#E0E0E0}
+	50% {background-color:#616161}
+	100% {background-color:#E0E0E0}
+}
+
+@keyframes five {
+	0% {background-color:#BDBDBD}
+	50% {background-color:#757575}
+	100% {background-color:#BDBDBD}
+}
+
+@keyframes six {
+	0% {background-color:#9E9E9E}
+	50% {background-color:#9E9E9E}
+	100% {background-color:#9E9E9E}
+}
+
+@keyframes seven {
+	0% {background-color:#757575}
+	50% {background-color:#BDBDBD}
+	100% {background-color:#757575}
+}
+
+@keyframes eight {
+	0% {background-color:#616161}
+	50% {background-color:#E0E0E0}
+	100% {background-color:#616161}
+}
+
+@keyframes nine {
+	0% {background-color:#424242}
+	50% {background-color:#EEEEEE}
+	100% {background-color:#424242}
+}
+
+@keyframes ten {
+	0% {background-color:#212121}
+	50% {background-color:#F5F5F5}
+	100% {background-color:#212121}
+}
+
+@keyframes eleven {
+	0% {background-color:#000000}
+	50% {background-color:#FAFAFA}
+	100% {background-color:#000000}
+}
+
+@keyframes twelve {
+	0% {background-color:#212121}
+	50% {background-color:#F5F5F5}
+	100% {background-color:#212121}
+}
+
+@keyframes thirteen {
+	0% {background-color:#424242}
+	50% {background-color:#EEEEEE}
+	100% {background-color:#424242}
+}
+
+@keyframes fourteen {
+	0% {background-color:#616161}
+	50% {background-color:#E0E0E0}
+	100% {background-color:#616161}
+}
+
+@keyframes fifteen {
+	0% {background-color:#757575}
+	50% {background-color:#BDBDBD}
+	100% {background-color:#757575}
+}
+
+@keyframes sixteen {
+	0% {background-color:#9E9E9E}
+	50% {background-color:#9E9E9E}
+	100% {background-color:#9E9E9E}
+}
+
+@keyframes seventeen {
+	0% {background-color:#BDBDBD}
+	50% {background-color:#757575}
+	100% {background-color:#BDBDBD}
+}
+
+@keyframes eighteen {
+	0% {background-color:#E0E0E0}
+	50% {background-color:#616161}
+	100% {background-color:#E0E0E0}
+}
+
+@keyframes nineteen {
+	0% {background-color:#EEEEEE}
+	50% {background-color:#424242}
+	100% {background-color:#EEEEEE}
+}
+
+#one {line-height: 100%;
+	width: 100%;
+	background-color: #FAFAFA;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:one;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#two {line-height: 100%;
+	width: 100%;
+	background-color: #F5F5F5;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:two;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#three {line-height: 100%;
+	width: 100%;
+	background-color: #EEEEEE;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:three;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#four {line-height: 100%;
+	width: 100%;
+	background-color: #E0E0E0;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:four;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#five {line-height: 100%;
+	width: 100%;
+	background-color: #BDBDBD;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:five;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#six {line-height: 100%;
+	width: 100%;
+	background-color: #9E9E9E;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:six;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#seven {line-height: 100%;
+	width: 100%;
+	background-color: #757575;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:seven;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#eight {line-height: 100%;
+	width: 100%;
+	background-color: #616161;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:eight;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#nine {line-height: 100%;
+	width: 100%;
+	background-color: #424242;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:nine;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#ten {line-height: 100%;
+	width: 100%;
+	background-color: #212121;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:ten;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#eleven {line-height: 100%;
+	width: 100%;
+	background-color: #000000;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:eleven;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#twelve {line-height: 100%;
+	width: 100%;
+	background-color: #212121;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:twelve;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#thirteen {line-height: 100%;
+	width: 100%;
+	background-color: #424242;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:thirteen;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#fourteen {line-height: 100%;
+	width: 100%;
+	background-color: #616161;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:fourteen;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#fifteen {line-height: 100%;
+	width: 100%;
+	background-color: #757575;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:fifteen;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#sixteen {line-height: 100%;
+	width: 100%;
+	background-color: #9E9E9E;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:sixteen;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#seventeen {line-height: 100%;
+	width: 100%;
+	background-color: #BDBDBD;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:seventeen;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#eighteen {line-height: 100%;
+	width: 100%;
+	background-color: #E0E0E0;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:eighteen;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+#nineteen {line-height: 100%;
+	width: 100%;
+	background-color: #EEEEEE;
+	margin-bottom: -18px;
+	padding: none;
+	animation-name:nineteen;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+
+.navigation{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 9999;
+	width: 135px;
+	height: 50px;
+}
+
+.navcircle a{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: #37474F;
+	text-align: center;
+	float: left;
+	margin: 2px;
+}
+
+.navigation a:link{
+	color: white;
+}
+
+.navigation a:visited{
+	color: white;
+}
+
+.navigation a:hover{
+	color: #76FF03;
+}
+
+.home a{
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 15pt;
+	font-weight: 600;
+	font-color: white;
+	line-height: 40px;
+}
+
+.back a{
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 25pt;
+	font-weight: 600;
+	font-color: white;
+	line-height: 35px;
+}
+
+.next a{
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 25pt;
+	font-weight: 600;
+	font-color: white;
+	line-height:35px;
+}
