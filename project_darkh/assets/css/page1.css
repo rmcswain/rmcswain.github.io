@@ -1,0 +1,189 @@
+* { box-sizing: border-box; }
+
+.black-and-white {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  /* transition: all 0.25s ease-in; */
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+    padding-bottom: 20px;
+	background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container_fixed {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 0;
+    z-index: 9;
+}
+
+.container_fixed .inside {
+	display: inline-block;
+    text-align: left;
+    width: 1150px;
+    padding: 20px;
+    position: relative;
+}
+
+.container_regular {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.top_bar {
+    width: 100%;
+    height: 250px;
+    background-color: #3F51B5;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+}
+
+#toggle_button {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: #E91E63;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 215px;
+    right: 90px;
+    cursor: pointer;
+}
+
+#toggle_button:hover{
+    background-color: white;
+}
+
+.navigation_area {
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+.navigation_bar {
+    width: 175px;
+    height: 290px;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navigation_bar h1 {
+    font-family: 'Share Tech Mono';
+    font-weight: 800;
+    margin-top: 0;
+    color: #3F51B5;
+}
+
+.navigation_bar a {
+    font-weight: 200;
+    font-size: 15px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.navigation_bar a.small {
+    font-size: 12px;
+    font-weight: 200;
+    color: #757575;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.navigation_area img {
+    height: 25px;
+    top: 495px;
+    left: 35px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 750px;
+    height: 500px;
+    background-color: white;
+    border-radius: 2px;
+    margin-left: 206px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+.card p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.card h1 {
+    font-family: 'Share Tech Mono';
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0;
+    text-align: center;
+    color: #3F51B5;
+}
+
+.two{
+    height: 225px;
+}
+
+.three{
+    height: 800px;
+}
+
+.three img{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three a{
+     padding-left: 325px;
+}
+
+.four img{
+    display: block;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.five{
+    background: url(../Portland.jpg);
+    background-size: 800px;
+}
+
+.five h1 {
+    color: white;
+}
+
+.five p {
+    color: white;
+}
+
+.six a{
+    padding-left: 250px;
+}
+
+.six{
+    height: 275px;
+}
